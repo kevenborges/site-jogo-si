@@ -3,9 +3,15 @@
     border: 0;
     padding: 0;
     box-sizing: 0;
-    font-family: Mark Pro, sans-serif;
-    src: url(fonts/Mark\ Pro\ Medium.ttf);
+    font-family: 'MarkPro';
     text-shadow: #000 1px -1px, #000 -1px 1px, #000 1px 1px, #000 -1px -1px;
+}
+
+@font-face{
+    font-family: 'MarkPro';
+    src: url('fonts/MarkPro.ttf');
+    font-weight: normal;
+    font-style: normal;
 }
 
 body{
@@ -79,15 +85,15 @@ tr a{
 }
 
 @keyframes mymove {
-    from {left: 2%;
+    from {left: 4%;
         top: 1rem;}
-    to {left: 85%;
+    to {left: 80%;
         top: 1rem;}
 }
 
 @keyframes mymoves {
-    from {left: 85%;
+    from {left: 80%;
         top: 1rem;}
-    to {left: 2%;
+    to {left: 4%;
         top: 1rem;}
     }
