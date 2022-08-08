@@ -1,0 +1,37 @@
+body{   
+    background-image: url(imagens/background-paginainicial.png);
+    background-attachment: fixed;
+}
+
+
+.tabela{
+    padding-top: 2rem;
+    font-size: 16pt;
+    color: aliceblue;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+.textresumo{
+    text-align: justify;
+}
+
+#espaço{
+    width: 3rem;
+}
+
+.linkjogo{
+    padding-left: 4rem;
+    font-size: 20pt;
+    color: aliceblue;
+    text-align: justify;
+}
+
+#cliqueaqui:hover{
+    transform:scale(1.1);
+}
+
+#cliqueaqui{
+    color: #ff4655;
+}
+
