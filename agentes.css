@@ -20,6 +20,7 @@ body{
 
 .agentesmenu tr td:hover:not(p) {
     transform:scale(1.1);
+    transition: 0.15s ease-in-out;
 }
 
 .agentesmenu img{
@@ -31,7 +32,7 @@ body{
     font-size: 16pt;
     color: aliceblue;
     text-align: justify;
-    width: 100rem;
+    width: 95rem;
 }
 
 #espaço{

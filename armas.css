@@ -7,6 +7,10 @@ body{
     padding-top: 4rem;
 }
 
+.tabelaarmas{
+    padding-top: 3rem;
+}
+
 .armasmenu td {
     width: 17rem;
     height: 10rem;
@@ -15,6 +19,7 @@ body{
 
 .armasmenu tr td:hover:not(p) {
     transform:scale(1.1);
+    transition: 0.15s ease-in-out;
 }
 
 .armasmenu p {
@@ -38,7 +43,7 @@ body{
     font-size: 16pt;
     color: aliceblue;
     text-align: justify;
-    width: 100rem;
+    width: 95rem;
 }
 
 h4 {

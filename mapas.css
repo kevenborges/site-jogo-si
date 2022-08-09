@@ -24,6 +24,7 @@ body{
 
 .mapasmenu tr td:hover:not(p) {
     transform:scale(1.1);
+    transition: 0.15s ease-in-out;
 }
 
 .mapasmenu img{
